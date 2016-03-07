@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="" content="">
+		<title>垂直居中的方法</title>
+		<style type="text/css">
+		.wrapper1 {
+					display: table;
+					width: 400px;
+					height: 400px;
+					background-color: red;
+				 }
+		.cell{display:table-cell; vertical-align: middle;}
+
+		.wrapper2{
+					position:absolute;
+					top:50%; /*指的是div与顶部的距离为浏览器高度的一半*/
+					height:240px;
+					margin-top: -120px;/*内容与盒子顶部的距离为盒子高度的一半*/
+					background-color: red;
+				 }
+
+		.floater{float:left;
+				 height:50%;/*指的是这个悬浮在左边的div的高度为浏览器高度的一半*/
+				 margin-bottom: -120px;/*将此div向上移动内容div高度的一半*/
+				}
+		.content3{
+        		  clear:both;/*元素左右两侧均不能出现浮动元素*/
+        		  height:240px;
+        		  position:relative;
+        		  background-color: red;
+				 }
+
+		.content4{position: absolute;
+                  top:0;
+                  bottom:0;
+                  left:0;
+                  right:0;
+                  margin:auto;
+                  height:240px;
+                  width:70%;
+                  background-color: red;
+				 }
+
+		.content5{height:100px;
+                  line-height: 100px;
+                  background-color: red;
+		         }
+		</style>
+	</head>
+	<body>
+		<!--第一种实现方式 -->
+		<!--<div class="wrapper1">
+			<div class="cell">
+				<div class="content1">
+					hello world!
+				</div>
+			</div>
+		</div> -->
+		
+		<!--第二种实现方式 -->
+		<!--<div class="wrapper2">
+			hello world!
+		</div>-->
+        
+        <!--第三种实现方式 -->
+        <div class="floater"></div>
+		<div class="content3">
+			hello world!
+		</div>
+
+		<!--第四种实现方式-->
+		<!--<div class="content4">
+			hello world!
+		</div>-->
+
+		<!-- 第5种实现方式-->
+		<!--<div class="content5">
+			hello world!
+		</div>-->
+		
+	</body>
+</html>
