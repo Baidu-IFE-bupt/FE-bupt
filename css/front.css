@@ -1,0 +1,30 @@
+html,body{
+    height: 100%;
+}
+.content{
+    height: 100%;
+}
+.content .person_img{
+    background-image: url('../img/7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+.content .person_intro{
+    padding: 60px;
+    display: inherit;
+    zoom: 2;
+}
+.content .person_intro .name{
+    font-size: 50px;
+    font-weight: 600;
+}
+.content .person_intro .job{
+    font-size: 30px;
+    color: #FE343E;
+    font-weight: 600;
+}
+.content .person_intro .intro{
+    font-size: 25px;
+}
