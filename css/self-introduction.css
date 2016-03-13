@@ -1,0 +1,61 @@
+/*公共部分*/
+body{margin:0px;font-family: 微软雅黑, 'Microsoft YaHei';}
+.mt-20{margin-top:20px;}
+.mb-25{margin-bottom:25px;}
+.mt-40{margin-top:40px;}
+.col-grey{color:#867B7A;}
+.col-orange{color:#CB7068;}
+.col-wirte{color:#fff;}
+.bg-orange{background-color:rgba(213, 117, 109, 0.83);}
+.fs-15{font-size:15px;}
+.fs-17{font-size:17px;}
+/*顶部*/
+.navbar-default{background-color: rgba(248, 248, 248, 0);
+border-color: rgba(231, 231, 231, 0);}
+.fixednav{background-color: rgba(213, 117, 109, 1);
+border-color: transparent;}
+.header-cover{
+			   background: no-repeat center center;
+  background-color: #808080;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 0px;
+			  height:250px;}
+.first-title{margin-top: 110px;color:#fff;}
+.information-title{color:rgb(108, 108, 108);}
+.self-tags-common{font-size: 17px;
+display: block;
+width: 55px;
+height: 55px;
+border-radius: 40px;
+background: #867B7A;
+color: #fff;
+text-align: center;
+font-weight: 600;
+font-family: 黑体;
+padding: 5px;
+display: block;
+margin: 0px auto;
+}
+
+.self-tags1{position: relative;
+top: -255px;
+left: -140px;}
+
+.self-tags2{
+position: relative;
+top: -340px;
+left: 120px;}
+
+.self-tags3{position: relative;
+top: -180px;
+left: -110px;}
+
+.user-images a:hover{color:#fff;text-decoration:none;background:#CB7068;}
+
+@media screen and (max-width:768px){ .member-information{margin-top: -140px;} } 
+
+
